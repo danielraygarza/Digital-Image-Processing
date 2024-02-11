@@ -57,10 +57,10 @@ def main():
     parser = ArgumentParser()
 
     parser.add_argument("-if", "--image-foreground", dest="image_f",
-                        help="specify the name of the foreground image", metavar="IMAGEFORE", default="falcon.png")
+                        help="specify the name of the foreground image", metavar="IMAGEFORE", default="input/falcon.png")
     parser.add_argument("-ib", "--image-b", dest="image_b",
-                        help="specify the name of the background image", metavar="IMAGEBACK", default="dstar.png")
-
+                        help="specify the name of the background image", metavar="IMAGEBACK", default="input/dstar.png")
+    
     parser.add_argument("-fd", "--flip-d", dest="flip_d",
                         help="specify the direction to flip along (horizontal or vertical)", metavar="FLIPDIR", default="horizontal")
 
