@@ -1,0 +1,4 @@
+python dip_hw1_distortion.py -i kenny.jpg -k 0.005 -m bilinear
+python dip_hw1_distortion.py -i kenny.jpg -k 0.0005 -m bilinear
+python dip_hw1_distortion.py -i kenny.jpg -k 0.005 -m nearest_neighbor
+python dip_hw1_distortion.py -i kenny.jpg -k 0.0005 -m nearest_neighbor
